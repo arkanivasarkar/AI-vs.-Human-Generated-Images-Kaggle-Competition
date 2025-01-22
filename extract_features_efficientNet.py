@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 from tensorflow.keras.applications import EfficientNetB7
 from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.vgg16 import preprocess_input
+from tensorflow.keras.applications.efficientnet import preprocess_input
 
 
 class extract_features:
